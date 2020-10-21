@@ -16,6 +16,10 @@
 		57224E50253D492800ABAC00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57224E4E253D492800ABAC00 /* LaunchScreen.storyboard */; };
 		57224E5B253D492900ABAC00 /* WidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E5A253D492900ABAC00 /* WidgetTests.swift */; };
 		57224E66253D492900ABAC00 /* WidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E65253D492900ABAC00 /* WidgetUITests.swift */; };
+		57224E77253D4A1600ABAC00 /* WallpaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E76253D4A1600ABAC00 /* WallpaperViewController.swift */; };
+		57224E7C253D4A2A00ABAC00 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E7B253D4A2A00ABAC00 /* PhotoViewController.swift */; };
+		57224E81253D4A3800ABAC00 /* MotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E80253D4A3800ABAC00 /* MotivationViewController.swift */; };
+		57224E86253D722C00ABAC00 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E85253D722C00ABAC00 /* ListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		57224E61253D492900ABAC00 /* WidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57224E65253D492900ABAC00 /* WidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetUITests.swift; sourceTree = "<group>"; };
 		57224E67253D492900ABAC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57224E76253D4A1600ABAC00 /* WallpaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewController.swift; sourceTree = "<group>"; };
+		57224E7B253D4A2A00ABAC00 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		57224E80253D4A3800ABAC00 /* MotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationViewController.swift; sourceTree = "<group>"; };
+		57224E85253D722C00ABAC00 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				57224E4E253D492800ABAC00 /* LaunchScreen.storyboard */,
 				57224E51253D492800ABAC00 /* Info.plist */,
 				57224E49253D492200ABAC00 /* Widget.xcdatamodeld */,
+				57224E85253D722C00ABAC00 /* ListCell.swift */,
+				57224E76253D4A1600ABAC00 /* WallpaperViewController.swift */,
+				57224E7B253D4A2A00ABAC00 /* PhotoViewController.swift */,
+				57224E80253D4A3800ABAC00 /* MotivationViewController.swift */,
 			);
 			path = Widget;
 			sourceTree = "<group>";
@@ -263,8 +275,12 @@
 			files = (
 				57224E45253D492200ABAC00 /* ViewController.swift in Sources */,
 				57224E41253D492200ABAC00 /* AppDelegate.swift in Sources */,
+				57224E77253D4A1600ABAC00 /* WallpaperViewController.swift in Sources */,
 				57224E43253D492200ABAC00 /* SceneDelegate.swift in Sources */,
+				57224E81253D4A3800ABAC00 /* MotivationViewController.swift in Sources */,
+				57224E86253D722C00ABAC00 /* ListCell.swift in Sources */,
 				57224E4B253D492200ABAC00 /* Widget.xcdatamodeld in Sources */,
+				57224E7C253D4A2A00ABAC00 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
